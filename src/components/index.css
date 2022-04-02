@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 350px;
+    height: 400px;
+
+    border: 1px solid white;
+    border-radius: 8px;
+
+    background-color: white;
+}
+
+ h1,p{
+    color: black;
+    font-family:"Roboto";
+}
+
+.card h1{
+    font-size: 36px;
+    border-bottom: 1px solid black;
+}
+
+.card > p {
+    font-size: 26px;
+}
+
+.card button{
+    width: 160px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50px;
+    
+    background-color: #000000;
+    
+    font-family:"Roboto";
+    color: white;
+    font-size: 18px;
+
+}
+
+.card .fruits{
+  width: 80%;
+}
+
+.fruits__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    margin: 10px 0;
+    
+    border: 1px solid #cecccc;
+    border-radius: 8px;
+    background-color: #fff;
+    
+    font-family:"Roboto";
+    list-style: none;
+   
+   
+}
+
+.fruits__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+    border-radius: 8px 0px 0px 8px;
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+ 
+}
+.fruits__preco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    border-radius: 0px 8px 8px 0px;
+   
+    background-color: #ededed;
+    color: black;
+    font-size: 20px;
+}
